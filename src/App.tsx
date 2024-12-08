@@ -5,7 +5,16 @@ import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 function App() {
   return (
     <HashRouter>
-      <div className="container">
+      <div
+        style={{
+          backgroundColor: "#fffff0",
+          maxWidth: "1450px",
+          margin: "auto",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+        }}
+      >
         <h1>
           Exploring Movies🎞️ as a Self-Healing Tool:
           <span
