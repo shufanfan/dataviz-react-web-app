@@ -19,7 +19,7 @@ export default function TOC() {
               pathname.includes("mentalHealth") ? "active" : ""
             }`}
           >
-            Mental Health Crsis
+            🧠 Mental Health Crsis
           </a>
         </li>
         <li className="nav-item">
@@ -29,7 +29,7 @@ export default function TOC() {
               pathname.includes("Personality") ? "active" : ""
             }`}
           >
-            Personality Trait & Movie-Watching Habits
+            🎥 Personality Trait & Movie-Watching Habits
           </a>
         </li>
         <li className="nav-item">
@@ -39,7 +39,7 @@ export default function TOC() {
               pathname.includes("IMDB1000GenreConnection") ? "active" : ""
             }`}
           >
-            GenreConnection
+            🔗 GenreConnection
           </a>
         </li>
         <li className="nav-item">
@@ -49,7 +49,7 @@ export default function TOC() {
               pathname.includes("IMDB1000TopRating") ? "active" : ""
             }`}
           >
-            Top Rating Movies
+            🏆 Top Rating Movies
           </a>
         </li>
         <li className="nav-item">
@@ -59,7 +59,7 @@ export default function TOC() {
               pathname.includes("EndingContinuing") ? "active" : ""
             }`}
           >
-            Conclusion
+            📜 Conclusion
           </a>
         </li>
         <li className="nav-item">
@@ -69,7 +69,7 @@ export default function TOC() {
               pathname.includes("sourceCode") ? "active" : ""
             }`}
           >
-            Source Code & Data
+            💻 Source Code & Data
           </a>
         </li>
       </ul>

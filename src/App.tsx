@@ -88,7 +88,7 @@ function App() {
               traits, movie preferences, and audience engagement offers a unique
               opportunity to explore personalized and therapeutic avenues.
             </p>
-            <h3>Study Scope</h3>
+            <h3>Study Scope🎯</h3>
             <div>
               <p>
                 <b>
