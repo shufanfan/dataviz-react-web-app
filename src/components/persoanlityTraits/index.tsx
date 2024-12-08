@@ -8,8 +8,7 @@ export default function PersonalityTraits() {
               <iframe
                 width="100%"
                 height="513"
-                frameBorder="0"
-                src="https://observablehq.com/embed/9edc351a46209a85@419?cells=groupedBar1"
+                src="https://observablehq.com/embed/9edc351a46209a85@505?cells=groupedBar1"
               ></iframe>
             </div>
             <div className="col-md-4">

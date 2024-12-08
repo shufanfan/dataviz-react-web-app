@@ -7,8 +7,7 @@ export default function MentalHealthCondition() {
             <iframe
               width="100%"
               height="1069"
-              frameBorder="0"
-              src="https://observablehq.com/embed/408a2ec7d52b9812@100?cells=svg%2Csvg2"
+              src="https://observablehq.com/embed/408a2ec7d52b9812@170?cells=svg%2Csvg2"
             ></iframe>
           </div>
           <div className="col-md-4">
