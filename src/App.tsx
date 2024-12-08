@@ -1,8 +1,22 @@
 import React from "react";
+import { useEffect } from "react";
 import "./App.css";
 import Components from "./components";
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 function App() {
+  useEffect(() => {
+    document.body.style.fontFamily = "Gill Sans, sans-serif";
+    document.body.style.backgroundColor = "#fff0f5";
+    document.body.style.margin = "0";
+    document.body.style.padding = "0";
+
+    return () => {
+      document.body.style.fontFamily = "";
+      document.body.style.backgroundColor = "";
+      document.body.style.margin = "";
+      document.body.style.padding = "";
+    };
+  }, []);
   return (
     <HashRouter>
       <div
