@@ -4,7 +4,7 @@ export default function GenreConnection() {
       <h2>
         Genre Connectivity
         <span style={{ fontStyle: "italic", fontSize: "0.7em" }}>
-          - by IMDB Top 1000
+          - by IMDB Top 1000 Movies
         </span>
       </h2>
       <div className="container mt-4">
@@ -18,7 +18,8 @@ export default function GenreConnection() {
             ></iframe>
           </div>
           <div className="col-md-4">
-            <h3>Insights</h3>
+            <h4 style={{ fontStyle: "italic" }}>How Do Genres Intertwine?</h4>
+            <h6 style={{ fontStyle: "italic" }}>- by IMDB Top 1000 Movies</h6>
             <ul
               style={{
                 display: "block",
@@ -28,22 +29,31 @@ export default function GenreConnection() {
               }}
             >
               <li>
-                Genres such as Drama, Comedy, and Romance frequently co-occur,
-                suggesting their centrality in creating multi-genre films that
-                resonate widely.
+                Genres such as <b>Drama</b>, <b>Comedy</b>, and <b>Romance</b>{" "}
+                frequently co-occur, suggesting their centrality in creating
+                multi-genre films that resonate widely!
               </li>
               <li>
-                Comedy’s ability to connect with almost all other genres
-                highlights its versatility and universal appeal.
+                <b>Comedy</b> is able to connect with almost all other genres!
               </li>
-              <li>...</li>
             </ul>
             <div
               style={{
                 marginTop: "40px",
               }}
             >
-              <p>Please play with the GenreNet to explore more insights!</p>
+              <p>
+                Genres like Drama, Comedy, and Romance stand at the heart of
+                multi-genre storytelling, weaving together narratives that
+                captivate and resonate with audiences far and wide.
+              </p>
+              <p style={{ fontStyle: "italic" }}>
+                <b>
+                  Feel free to dive deeper into the GenreNet and uncover even
+                  more fascinating
+                  insights!🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+                </b>
+              </p>
             </div>
           </div>
         </div>

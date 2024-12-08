@@ -2,7 +2,6 @@ export default function PersonalityTraits() {
   return (
     <div>
       <div style={{ marginTop: "40px" }}>
-        <h2>Personality Traits and Movie-Watching Habits</h2>
         <div className="container mt-4">
           <div className="row">
             <div className="col-md-8">
@@ -14,7 +13,12 @@ export default function PersonalityTraits() {
               ></iframe>
             </div>
             <div className="col-md-4">
-              <h3>Insights</h3>
+              <h4 style={{ fontStyle: "italic" }}>
+                What Can Personality Traits Reveal About Movie-Watching Habits?
+              </h4>
+              <h4 style={{ fontStyle: "italic" }}>
+                —and Their Role in Coping?
+              </h4>
               <ul
                 style={{
                   display: "block",
@@ -29,9 +33,10 @@ export default function PersonalityTraits() {
                   indicating limited engagement with movies.
                 </li>
                 <li>
-                  The “several times a week” group shows a balanced distribution
-                  of personality traits, suggesting broader appeal and potential
-                  stress-relief benefits across diverse psychological profiles.
+                  The ‘several times a week’ group shows a more balanced
+                  distribution of personality traits compared to other groups,
+                  suggesting a broader appeal and potential stress-relief
+                  benefits for individuals with diverse psychological profiles.
                 </li>
               </ul>
               <div
@@ -40,11 +45,13 @@ export default function PersonalityTraits() {
                 }}
               >
                 <p>
-                  Frequent movie-watching, as observed in the more balanced
-                  personality trait distribution, may serve as a universal
-                  coping mechanism or recreational activity for individuals of
-                  varying mental states. This aligns with the project’s goal of
-                  evaluating movies as a self-healing tool.
+                  Frequent movie-watching, reflected in the balanced
+                  distribution of personality traits, might act as a universal
+                  balm—offering both a coping mechanism and a source of joy for
+                  people across a spectrum of mental states. It highlights the
+                  potential of movies to serve as a self-healing tool, bringing
+                  comfort and connection to those navigating diverse
+                  psychological landscapes.
                 </p>
               </div>
             </div>
@@ -53,7 +60,6 @@ export default function PersonalityTraits() {
       </div>
 
       <div style={{ marginTop: "40px" }}>
-        <h2>Personality Dimensions and Movie Genre Preferences</h2>
         <div className="container mt-4">
           <div className="row">
             <div className="col-md-8">
@@ -65,7 +71,9 @@ export default function PersonalityTraits() {
               ></iframe>
             </div>
             <div className="col-md-4">
-              <h3>Insights</h3>
+              <h4 style={{ fontStyle: "italic" }}>
+                How Do Our Personality Traits Shape Our Movie Genre Preferences?
+              </h4>
               <ul
                 style={{
                   display: "block",
@@ -75,16 +83,17 @@ export default function PersonalityTraits() {
                 }}
               >
                 <li>
-                  Extraversion: Genres like War have higher median scores,
-                  indicating preference among extroverted individuals.
+                  <b>Extraversion</b>: Genres like <b>War</b> have higher median
+                  scores, indicating preference among extroverted individuals.
                 </li>
                 <li>
-                  Conscientiousness: Historical genres appeal to highly
-                  conscientious individuals.
+                  <b>Conscientiousness</b>: <b>Historical</b> genres appeal to
+                  highly conscientious individuals.
                 </li>
                 <li>
-                  Neuroticism: Drama is preferred by individuals with higher
-                  neuroticism levels, potentially due to its emotional depth.
+                  <b>Neuroticism</b>: <b>Drama</b> is preferred by individuals
+                  with higher neuroticism levels, potentially due to its
+                  emotional depth.
                 </li>
               </ul>
               <div
@@ -93,11 +102,34 @@ export default function PersonalityTraits() {
                 }}
               >
                 <p>
-                  Certain genres like Comedy and Horror attract both low and
-                  high extraversion outliers, reflecting their broad emotional
-                  appeal. These insights emphasize the variability in how
-                  personality traits influence genre preferences, reinforcing
-                  the diverse therapeutic potential of movies.
+                  <b>Take the Extraversion dimension as an example:</b>
+                </p>
+                <p>
+                  Certain genres, such as <b>Comedy</b> and <b>Horror</b>,
+                  captivate individuals across the spectrum of extraversion,
+                  from the most reserved to the most outgoing, showcasing their
+                  wide emotional appeal. For instance, Comedy appeals broadly to
+                  both introverted and extroverted individuals, reflecting its
+                  ability to resonate with diverse emotional needs. Similarly,
+                  Horror attracts audiences with varying levels of extraversion,
+                  likely due to its intense emotional engagement and
+                  thrill-seeking qualities.
+                </p>
+
+                <p>
+                  On the other hand, genres like <b>War</b>,&nbsp;{" "}
+                  <b>Animation</b>,&nbsp;
+                  <b>Drama</b> and <b>Sci-Fi</b> exhibit distinct preferences,
+                  with War appealing predominantly to highly extroverted
+                  individuals and Drama drawing in those with more introverted
+                  tendencies.
+                </p>
+
+                <p>
+                  This highlights the dynamic ways personality traits shape
+                  genre preferences, underlining the diverse and therapeutic
+                  possibilities that movies can offer to audiences across
+                  different psychological profiles.
                 </p>
               </div>
             </div>

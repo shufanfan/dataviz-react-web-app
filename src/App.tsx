@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Components from "./components";
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 function App() {
@@ -107,7 +108,7 @@ function App() {
             <p>
               <b>
                 Please click on the module below that interests you to learn
-                more.
+                more👇
               </b>
             </p>
           </div>
